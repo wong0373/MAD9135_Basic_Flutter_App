@@ -1,0 +1,50 @@
+name: basic_flutter_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/chiikawa_1.webp
+    - assets/images/chiikawa_2.jpg
+    - assets/images/chiikawa_3.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+          weight: 700
+
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat/static/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat/static/Montserrat-Bold.ttf
+        - asset: assets/fonts/Montserrat/static/Montserrat-Italic.ttf
+          weight: 700
+
+    - family: SourGummy
+      fonts:
+        - asset: assets/fonts/Sour_Gummy/static/SourGummy-Regular.ttf
+        - asset: assets/fonts/Sour_Gummy/static/SourGummy-Bold.ttf
+        - asset: assets/fonts/Sour_Gummy/static/SourGummy-Italic.ttf
+          weight: 700
+
+    - family: Doto
+      fonts:
+        - asset: assets/fonts/Doto/static/Doto-Regular.ttf
+          weight: 700
