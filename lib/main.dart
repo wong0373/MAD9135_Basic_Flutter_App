@@ -12,7 +12,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       title: 'Basic Flutter App',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Roboto'),
+      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Montserrat'),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Basic Flutter App'),
@@ -36,7 +36,7 @@ class MainApp extends StatelessWidget {
                     return Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: Image.asset(images[index],
-                          width: 300, height: 300, fit: BoxFit.fill),
+                          width: 500, height: 500, fit: BoxFit.fill),
                     );
                   },
                 ),
@@ -106,7 +106,7 @@ class MainApp extends StatelessWidget {
                     return Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20.0),
                       child: Image.network(images[index],
-                          width: 300, height: 300, fit: BoxFit.fill),
+                          width: 500, height: 500, fit: BoxFit.fill),
                     );
                   },
                 ),
