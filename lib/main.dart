@@ -22,7 +22,7 @@ class MainApp extends StatelessWidget {
           child: ListView(
             children: [
               SizedBox(
-                height: 300,
+                height: 400,
                 child: ListView.builder(
                   itemCount: 3,
                   //default is vertical
@@ -92,7 +92,7 @@ class MainApp extends StatelessWidget {
                           fontWeight: FontWeight.bold))),
               const SizedBox(height: 24), // Space between elements
               SizedBox(
-                height: 300,
+                height: 400,
                 child: ListView.builder(
                   itemCount: 3,
                   //default is vertical
